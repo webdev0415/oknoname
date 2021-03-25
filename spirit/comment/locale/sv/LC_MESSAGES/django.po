@@ -1,0 +1,269 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-11-26 00:01+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Swedish (http://www.transifex.com/spirit-project/spirit/language/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:39
+msgid "Comment"
+msgstr "Kommentar"
+
+#: forms.py:57
+msgid "Write comment..."
+msgstr "Skriv kommentar..."
+
+#: forms.py:147
+#, python-format
+msgid "Unsupported file format. Supported formats are %s."
+msgstr ""
+
+#: forms.py:174 forms.py:195
+msgid "The file could not be validated"
+msgstr ""
+
+#: forms.py:182
+#, python-format
+msgid ""
+"Unsupported file extension %(extension)s. Supported extensions are "
+"%(supported)s."
+msgstr ""
+
+#: forms.py:199
+#, python-format
+msgid ""
+"Unsupported file mime type %(mime)s. Supported types are %(supported)s."
+msgstr ""
+
+#: models.py:17 models.py:35 models.py:50
+msgid "comment"
+msgstr "kommentar"
+
+#: models.py:18
+msgid "topic moved"
+msgstr "ämne flyttat"
+
+#: models.py:19
+msgid "topic closed"
+msgstr "ämne stängt"
+
+#: models.py:20
+msgid "topic unclosed"
+msgstr "ämnet är inte längre stängt"
+
+#: models.py:21
+msgid "topic pinned"
+msgstr "ämne fastsatt"
+
+#: models.py:22
+msgid "topic unpinned"
+msgstr "ämnet är inte längre fastsatt"
+
+#: models.py:36
+msgid "comment html"
+msgstr "kommentar-html"
+
+#: models.py:37
+msgid "action"
+msgstr "handling"
+
+#: models.py:43
+msgid "modified count"
+msgstr "antal ändringar"
+
+#: models.py:44
+msgid "likes count"
+msgstr "antal gilla"
+
+#: models.py:51
+msgid "comments"
+msgstr "kommentarer"
+
+#: tags.py:40
+msgid "This topic has been moved"
+msgstr "Detta ämne har flyttats"
+
+#: tags.py:41
+msgid "This topic has been closed"
+msgstr "Detta ämne har stängts"
+
+#: tags.py:42
+msgid "This topic has been unclosed"
+msgstr "Detta ämne är inte längre stängt"
+
+#: tags.py:43
+msgid "This topic has been pinned"
+msgstr "Detta ämne är fastsatt"
+
+#: tags.py:44
+msgid "This topic has been unpinned"
+msgstr "Detta ämne är inte längre fastsatt"
+
+#: tags.py:49
+msgid "Unknown topic moderation action"
+msgstr "Okänd handling för ämnesmoderering"
+
+#: templates/spirit/comment/_editor.html:10
+msgid "Bold"
+msgstr "Fetstilt"
+
+#: templates/spirit/comment/_editor.html:15
+msgid "Italic"
+msgstr "Kursiv"
+
+#: templates/spirit/comment/_editor.html:20
+msgid "List"
+msgstr "Lista"
+
+#: templates/spirit/comment/_editor.html:25
+msgid "URL"
+msgstr "URL"
+
+#: templates/spirit/comment/_editor.html:30
+msgid "Image"
+msgstr "Bild"
+
+#: templates/spirit/comment/_editor.html:37
+msgid "File"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:44
+msgid "Poll"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:49
+msgid "Preview"
+msgstr "Förhandsgranskning"
+
+#: templates/spirit/comment/_editor.html:77
+#: templates/spirit/comment/_editor.html:86
+#, python-brace-format
+msgid "uploading {name}"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:92
+msgid "bolded text"
+msgstr "fetstilt text"
+
+#: templates/spirit/comment/_editor.html:93
+msgid "italicised text"
+msgstr "kursiv text"
+
+#: templates/spirit/comment/_editor.html:94
+msgid "list item"
+msgstr "listobjekt"
+
+#: templates/spirit/comment/_editor.html:95
+msgid "link text"
+msgstr "länktext"
+
+#: templates/spirit/comment/_editor.html:96
+msgid "link url"
+msgstr "länk-url"
+
+#: templates/spirit/comment/_editor.html:97
+msgid "image text"
+msgstr "bildtext"
+
+#: templates/spirit/comment/_editor.html:98
+msgid "image url"
+msgstr "bild-url"
+
+#: templates/spirit/comment/_editor.html:99
+msgid "file text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:100
+msgid "file url"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:101
+msgid "Title"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:102
+msgid "Description"
+msgstr ""
+
+#: templates/spirit/comment/_form.html:17
+#: templates/spirit/comment/publish.html:18
+#: templates/spirit/comment/update.html:18
+msgid "Publish"
+msgstr "Publicera"
+
+#: templates/spirit/comment/_render_list.html:58
+msgid "delete"
+msgstr "ta bort"
+
+#: templates/spirit/comment/_render_list.html:64
+msgid "report"
+msgstr "rapportera"
+
+#: templates/spirit/comment/_render_list.html:70
+msgid "share"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:79
+#: templates/spirit/comment/_render_list.html:195
+msgid "remove like"
+msgstr "sluta gilla"
+
+#: templates/spirit/comment/_render_list.html:87
+#: templates/spirit/comment/_render_list.html:194
+msgid "like"
+msgstr "gilla"
+
+#: templates/spirit/comment/_render_list.html:96
+msgid "edit"
+msgstr "redigera"
+
+#: templates/spirit/comment/_render_list.html:102
+msgid "quote"
+msgstr "citera"
+
+#: templates/spirit/comment/_render_list.html:105
+msgid "reply"
+msgstr "svara"
+
+#: templates/spirit/comment/_render_list.html:114
+msgid "close"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:163
+msgid "This comment was deleted"
+msgstr "Denna kommentar är borttagen"
+
+#: templates/spirit/comment/_render_list.html:173
+msgid "undelete"
+msgstr "Ångra borttagning"
+
+#: templates/spirit/comment/moderate.html:5
+#: templates/spirit/comment/moderate.html:9
+msgid "Moderate comment"
+msgstr "Moderera kommentar"
+
+#: templates/spirit/comment/moderate.html:14
+msgid "Apply"
+msgstr "Verkställ"
+
+#: templates/spirit/comment/publish.html:5
+msgid "Publish comment"
+msgstr "Publicera kommentar"
+
+#: templates/spirit/comment/publish.html:9
+msgid "Publishing comment on"
+msgstr "Publicera kommentar påslaget"
+
+#: templates/spirit/comment/update.html:5
+#: templates/spirit/comment/update.html:9
+msgid "Edit comment"
+msgstr "Redigera kommentar"

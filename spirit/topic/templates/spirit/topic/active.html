@@ -1,0 +1,71 @@
+{% extends "spirit/_base.html" %}
+
+{% load spirit_tags i18n %}
+
+{% block title %}{% trans "Latest active topics" %}{% endblock %}
+
+{% block content %}
+
+  {% if profile.is_allowed == False %}
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h3>Write Password to Access Forum</h3></h5>
+      </div>
+      <div class="modal-body">
+        <div>
+          <label for="" style="float: left;">Password</label>
+          <input type="password" id="forum_password" name="password">
+          <button class="btn btn-secondary" type="button" id="forum_password_submit">Submit</button>
+        </div>
+      </div>
+
+  <script>
+
+  function getCookie(c_name) {
+        if (document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=");
+            if (c_start != -1) {
+                c_start = c_start + c_name.length + 1;
+                c_end = document.cookie.indexOf(";", c_start);
+                if (c_end == -1) c_end = document.cookie.length;
+                return unescape(document.cookie.substring(c_start, c_end));
+            }
+        }
+        return "";
+    }
+
+    $('#forum_password_submit').on('click', function(){
+      req = $.ajax({
+        headers: { "X-CSRFToken": getCookie("csrftoken") },
+        type: 'post',
+        url: '{% url "spirit:index" %}',
+        data: {
+          'samp': 'forum_password',
+          'password': $('#forum_password').val(),
+        },
+        dataType: 'json',
+      })
+      .done(function done(data){
+        success = data.success;
+        error = data.error
+        if(success == 'success'){
+          location.reload();
+        }
+        else if(error == 'Password is Invalid'){
+          alert(error)
+        }
+      });
+    });
+
+    $(document).ready(function(){
+      $('.hover_bkgr_fricc').show();
+    })
+  </script>
+  {% else %}
+    {% include "spirit/topic/_top_bar.html" with category=None categories=categories %}
+
+    {% include "spirit/topic/_render_list.html" %}
+
+    {% render_paginator topics %}
+  {% endif %}
+
+{% endblock %}

@@ -1,0 +1,126 @@
+# 
+# Translators:
+# Timour Ghinatoulline <t.ginatullin@plusone.su>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 15:40+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/spirit-project/spirit/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: forms.py:68
+msgid "Invite users"
+msgstr ""
+
+#: forms.py:71
+msgid "user1, user2, ..."
+msgstr "пользователь1, пользователь2, ..."
+
+#: forms.py:103
+msgid "username"
+msgstr "Имя пользователя"
+
+#: forms.py:104
+msgid "Invite user"
+msgstr "Пригласить пользователя"
+
+#: forms.py:122 forms.py:156
+#, python-format
+msgid "%(username)s is already a participant"
+msgstr "Пользователь %(username)s уже участвует в теме"
+
+#: models.py:31
+msgid "private topic"
+msgstr "приватная тема"
+
+#: models.py:32
+msgid "private topics"
+msgstr "приватные темы"
+
+#: templates/spirit/topic/private/_invite_form.html:7
+msgid "Invite"
+msgstr "инвайт"
+
+#: templates/spirit/topic/private/_top_bar.html:9
+#: templates/spirit/topic/private/_top_bar.html:26
+msgid "Participating in"
+msgstr "Участие в приватных темах"
+
+#: templates/spirit/topic/private/_top_bar.html:14
+#: templates/spirit/topic/private/_top_bar.html:22
+msgid "Left"
+msgstr "Покинутые приватные темы"
+
+#: templates/spirit/topic/private/_top_bar.html:35
+msgid "Create private topic"
+msgstr "Создать приватную тему"
+
+#: templates/spirit/topic/private/delete.html:5
+msgid "Remove user from private topic"
+msgstr "Удалить участника из приватной темы"
+
+#: templates/spirit/topic/private/delete.html:10
+#, python-format
+msgid "Removing %(username)s's from %(topic_title)s"
+msgstr "Удаление участника %(username)s's из темы %(topic_title)s"
+
+#: templates/spirit/topic/private/delete.html:17
+msgid "Remove"
+msgstr "Удалить"
+
+#: templates/spirit/topic/private/detail.html:10
+#: templates/spirit/topic/private/index.html:5
+msgid "Private topics"
+msgstr "Приватные темы"
+
+#: templates/spirit/topic/private/detail.html:20
+msgid "Participants"
+msgstr "Участники"
+
+#: templates/spirit/topic/private/detail.html:47
+msgid "Leave topic"
+msgstr "Покинуть тему"
+
+#: templates/spirit/topic/private/index_author.html:5
+msgid "Created private topics"
+msgstr "Созданные приватные темы"
+
+#: templates/spirit/topic/private/index_author.html:18
+msgid "join"
+msgstr "присоединиться"
+
+#: templates/spirit/topic/private/index_author.html:21
+msgid "There are no topics here, yet"
+msgstr "Здесь пока нет тем"
+
+#: templates/spirit/topic/private/join.html:5
+msgid "Join topic"
+msgstr "Присоединиться к теме"
+
+#: templates/spirit/topic/private/join.html:10
+#, python-format
+msgid "Do you want to join %(topic_title)s?"
+msgstr "Желаете присоединиться к теме %(topic_title)s?"
+
+#: templates/spirit/topic/private/join.html:20
+msgid "Join"
+msgstr "Присоединиться"
+
+#: templates/spirit/topic/private/publish.html:5
+msgid "Publish a private topic"
+msgstr "Опубликовать приватную тему"
+
+#: templates/spirit/topic/private/publish.html:9
+msgid "Publish private topic"
+msgstr "Опубликовать приватную тему"
+
+#: templates/spirit/topic/private/publish.html:23
+msgid "Publish"
+msgstr "Опубликовать"

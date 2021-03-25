@@ -1,0 +1,294 @@
+# 
+# Translators:
+# alff0x1f <alff3one@gmail.com>, 2016
+# Evgenii <djcoollin@gmail.com>, 2015
+# Timour Ghinatoulline <t.ginatullin@plusone.su>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 15:40+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/spirit-project/spirit/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: forms.py:35
+msgid "The email is taken."
+msgstr "Email уже занят"
+
+#: forms.py:45 forms.py:50 templates/spirit/user/profile_update.html:13
+msgid "Email"
+msgstr "Электронная почта"
+
+#: forms.py:51 templates/spirit/user/profile_update.html:19
+msgid "Password"
+msgstr "Пароль"
+
+#: forms.py:61
+msgid "The provided password is incorrect."
+msgstr "Пароль неверный"
+
+#: forms.py:75
+msgid "Time zone"
+msgstr ""
+
+#: forms.py:84
+#, python-format
+msgid "Current time is: %(date)s %(time)s"
+msgstr "Текущее время: %(date)s %(time)s"
+
+#: models.py:18
+msgid "profile"
+msgstr "профиль"
+
+#: models.py:23
+msgid "location"
+msgstr "расположение"
+
+#: models.py:24
+msgid "last seen"
+msgstr "последний раз пользователь появлялся"
+
+#: models.py:25
+msgid "last ip"
+msgstr "последний ip"
+
+#: models.py:26
+msgid "time zone"
+msgstr "часовой пояс"
+
+#: models.py:27
+msgid "administrator status"
+msgstr "статус администратора"
+
+#: models.py:28
+msgid "moderator status"
+msgstr "статус модератора"
+
+#: models.py:30
+msgid "verified"
+msgstr "Проверено"
+
+#: models.py:32
+msgid ""
+"Designates whether the user has verified his account by email or by other "
+"means. Un-select this to let the user activate his account."
+msgstr "Означает, что пользователь подтвердил свой аккаунт по электронной почте или иным способом. Снимите галку, чтобы пользователь выполнил активацию аккаунта."
+
+#: models.py:36
+msgid "topic count"
+msgstr "количество тем"
+
+#: models.py:37
+msgid "comment count"
+msgstr "количество комментариев"
+
+#: models.py:39
+msgid "last post hash"
+msgstr ""
+
+#: models.py:40
+msgid "last post on"
+msgstr ""
+
+#: models.py:43
+msgid "forum profile"
+msgstr "профиль форума"
+
+#: models.py:44
+msgid "forum profiles"
+msgstr "профиль форумов"
+
+#: templates/spirit/user/_profile.html:13
+msgid "Joined at"
+msgstr "Зарегистрирован"
+
+#: templates/spirit/user/_profile.html:17
+msgid "Seen"
+msgstr "Был"
+
+#: templates/spirit/user/_profile.html:23
+msgid "Last IP"
+msgstr "Последний IP"
+
+#: templates/spirit/user/_profile.html:35
+#: templates/spirit/user/profile_update.html:5
+#: templates/spirit/user/profile_update.html:9
+msgid "Preferences"
+msgstr "Настройки"
+
+#: templates/spirit/user/_profile.html:41
+msgid "Private Message"
+msgstr "Личное сообщение"
+
+#: templates/spirit/user/_profile.html:49
+msgid "Edit user"
+msgstr "Редактировать пользователя"
+
+#: templates/spirit/user/_profile.html:58
+msgid "Comments"
+msgstr "Комментарии"
+
+#: templates/spirit/user/_profile.html:63 templates/spirit/user/menu.html:21
+msgid "Topics"
+msgstr "Темы"
+
+#: templates/spirit/user/_profile.html:68
+msgid "Likes"
+msgstr "Лайки"
+
+#: templates/spirit/user/_render_comments_list.html:41
+msgid "There are no comments here, yet"
+msgstr "Пока нет комментариев"
+
+#: templates/spirit/user/activation_email.html:2
+#, python-format
+msgid "You're receiving this email because you registered at %(site_name)s."
+msgstr "Вы получили настоящее сообщение, поскольку вы зарегистрировались на сайте %(site_name)s."
+
+#: templates/spirit/user/activation_email.html:6
+msgid "Please go to the following link to activate your account:"
+msgstr "Пройдите по следующей ссылке для активации аккаунта:"
+
+#: templates/spirit/user/activation_email.html:10
+#: templates/spirit/user/email_change_email.html:10
+msgid "Thanks for using our site!"
+msgstr "Благодарим за пользование нашим сайтом!"
+
+#: templates/spirit/user/email_change_email.html:2
+#, python-format
+msgid ""
+"You're receiving this because you changed your user email at %(site_name)s."
+msgstr "Вы получили настоящее сообщение, поскольку ваш адрес электронной почты была изменен на сайте %(site_name)s."
+
+#: templates/spirit/user/email_change_email.html:6
+msgid "Please go to the following link to confirm your email change:"
+msgstr "Пройдите по следующей ссылке для подтверждения смены адреса электронной почты:"
+
+#: templates/spirit/user/menu.html:7
+msgid "User menu"
+msgstr "Меню пользователя"
+
+#: templates/spirit/user/menu.html:11
+msgid "Menu"
+msgstr "Меню"
+
+#: templates/spirit/user/menu.html:18
+msgid "Profile"
+msgstr "Профиль"
+
+#: templates/spirit/user/menu.html:24
+msgid "Unread topics"
+msgstr "Непрочитанные темы"
+
+#: templates/spirit/user/menu.html:27
+msgid "Private topics"
+msgstr "Приватные темы"
+
+#: templates/spirit/user/menu.html:32
+msgid "Admin"
+msgstr "Админ"
+
+#: templates/spirit/user/menu.html:37
+msgid "Log out"
+msgstr "Выйти"
+
+#: templates/spirit/user/notification_email.html:2
+#, python-format
+msgid "You have a new notification at %(site_name)s."
+msgstr "Новое уведомление на сайте %(site_name)s."
+
+#: templates/spirit/user/notification_email.html:6
+msgid "Please go to the following link to read the comment:"
+msgstr "Пожалуйста, перейдите по следующей ссылке, чтобы прочитать комментарий:"
+
+#: templates/spirit/user/notification_email.html:10
+msgid ""
+"If you don't want to keep receiving notifications, you can deactivate them "
+"on your profile preferences."
+msgstr "Чтобы отписаться от уведомлений, отключите их в настройках вашего профиля."
+
+#: templates/spirit/user/profile_comments.html:5
+msgid "comments"
+msgstr "комментарии"
+
+#: templates/spirit/user/profile_email_change.html:5
+#: templates/spirit/user/profile_email_change.html:9 tests.py:454 tests.py:768
+#: utils/email.py:60
+msgid "Email change"
+msgstr "Смена почты"
+
+#: templates/spirit/user/profile_email_change.html:15
+msgid "Change my email"
+msgstr "Изменить адрес электронной почты"
+
+#: templates/spirit/user/profile_likes.html:5
+msgid "likes"
+msgstr "лайки"
+
+#: templates/spirit/user/profile_password_change.html:5
+#: templates/spirit/user/profile_password_change.html:9
+msgid "Password change"
+msgstr "Изменение пароля"
+
+#: templates/spirit/user/profile_password_change.html:15
+msgid "Change my password"
+msgstr "Изменить пароль"
+
+#: templates/spirit/user/profile_topics.html:5
+msgid "topics"
+msgstr "темы"
+
+#: templates/spirit/user/profile_update.html:22
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: templates/spirit/user/profile_update.html:25
+msgid "Avatar"
+msgstr "Аватар"
+
+#: templates/spirit/user/profile_update.html:27
+msgid "Change avatar"
+msgstr "Сменить аватар"
+
+#: templates/spirit/user/profile_update.html:28
+msgid "Go to gravatar.com and use your current email to change it"
+msgstr "Чтобы изменить, перейдите на сайт gravatar.com и войдите в ваш текущий аккаунт."
+
+#: templates/spirit/user/profile_update.html:37
+msgid "Save"
+msgstr "Сохранить"
+
+#: tests.py:732 utils/email.py:52
+msgid "User activation"
+msgstr "Активация пользователя"
+
+#: utils/email.py:69
+#, python-format
+msgid "New notification: %(topic_name)s"
+msgstr "Новые уведомления: %(topic_name)s"
+
+#: views.py:35
+msgid "Your profile has been updated!"
+msgstr "Ваш профиль был обновлен!"
+
+#: views.py:57
+msgid "Your password has been changed!"
+msgstr "Ваш пароль был изменен!"
+
+#: views.py:74
+msgid "We have sent you an email so you can confirm the change!"
+msgstr "Мы отправили вам письмо, чтобы вы могли подтвердить изменения!"
+
+#: views.py:96
+msgid "Your email has been changed!"
+msgstr "Ваш адрес электронной почты был изменен!"
+
+#: views.py:99
+msgid "Sorry, we were not able to change your email."
+msgstr "К сожалению, мы не смогли изменить Вашу электронную почту."

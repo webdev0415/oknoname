@@ -1,0 +1,57 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 15:40+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: German (http://www.transifex.com/spirit-project/spirit/language/de/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:47
+msgid ""
+"The category you are updating can not have a parent since it has childrens"
+msgstr "Der Kategorie die du updatest, kann keine übergeordnete Kategorie zugewiesen werden, da sie selbst untergeordnete Kategorien besitzt."
+
+#: forms.py:57
+msgid "The input is not a valid hex color."
+msgstr ""
+
+#: templates/spirit/category/admin/create.html:5
+#: templates/spirit/category/admin/create.html:9
+msgid "Add Category"
+msgstr "Kategorie hinzufügen"
+
+#: templates/spirit/category/admin/create.html:15
+#: templates/spirit/category/admin/update.html:15
+msgid "Save"
+msgstr "speichern"
+
+#: templates/spirit/category/admin/index.html:5
+#: templates/spirit/category/admin/index.html:11
+msgid "Category list"
+msgstr "Kategorieliste"
+
+#: templates/spirit/category/admin/index.html:13
+msgid "Create Category"
+msgstr "Kategorie anlegen"
+
+#: templates/spirit/category/admin/index.html:29
+#: templates/spirit/category/admin/index.html:44
+msgid "edit"
+msgstr "editieren"
+
+#: templates/spirit/category/admin/update.html:5
+#: templates/spirit/category/admin/update.html:9
+msgid "Update Category"
+msgstr "Kategorie aktualisieren"
+
+#: views.py:50
+msgid "The category has been updated!"
+msgstr "Die Kategorie wurde aktualisiert."

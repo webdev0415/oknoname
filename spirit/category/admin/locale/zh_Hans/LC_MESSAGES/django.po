@@ -1,0 +1,57 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 15:40+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/spirit-project/spirit/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: forms.py:47
+msgid ""
+"The category you are updating can not have a parent since it has childrens"
+msgstr "你要更新的分类无法选择父分类，因为他已经是一个父分类。"
+
+#: forms.py:57
+msgid "The input is not a valid hex color."
+msgstr ""
+
+#: templates/spirit/category/admin/create.html:5
+#: templates/spirit/category/admin/create.html:9
+msgid "Add Category"
+msgstr "添加分类"
+
+#: templates/spirit/category/admin/create.html:15
+#: templates/spirit/category/admin/update.html:15
+msgid "Save"
+msgstr "保存"
+
+#: templates/spirit/category/admin/index.html:5
+#: templates/spirit/category/admin/index.html:11
+msgid "Category list"
+msgstr "分类列表"
+
+#: templates/spirit/category/admin/index.html:13
+msgid "Create Category"
+msgstr "创建分类"
+
+#: templates/spirit/category/admin/index.html:29
+#: templates/spirit/category/admin/index.html:44
+msgid "edit"
+msgstr "编辑"
+
+#: templates/spirit/category/admin/update.html:5
+#: templates/spirit/category/admin/update.html:9
+msgid "Update Category"
+msgstr "更新分类"
+
+#: views.py:50
+msgid "The category has been updated!"
+msgstr "分类已经成功修改"

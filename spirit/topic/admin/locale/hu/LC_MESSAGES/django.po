@@ -1,0 +1,46 @@
+# 
+# Translators:
+# Istvan Farkas <istvan.farkas@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 15:40+0000\n"
+"Last-Translator: Istvan Farkas <istvan.farkas@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/spirit-project/spirit/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/spirit/topic/admin/_tabs.html:7
+msgid "Deleted"
+msgstr "Törölt"
+
+#: templates/spirit/topic/admin/_tabs.html:11
+msgid "Closed"
+msgstr "Lezárt"
+
+#: templates/spirit/topic/admin/_tabs.html:15
+msgid "Pinned"
+msgstr "Kitűzött"
+
+#: templates/spirit/topic/admin/closed.html:5
+#: templates/spirit/topic/admin/closed.html:11
+msgid "Closed topics"
+msgstr "Lezárt témák"
+
+#: templates/spirit/topic/admin/deleted.html:5
+msgid "Deleted Topics"
+msgstr "Törölt témák"
+
+#: templates/spirit/topic/admin/deleted.html:11
+msgid "Deleted topics"
+msgstr "Törölt témák"
+
+#: templates/spirit/topic/admin/pinned.html:5
+#: templates/spirit/topic/admin/pinned.html:11
+msgid "Pinned topics"
+msgstr "Kitűzött témák"

@@ -1,0 +1,177 @@
+# 
+# Translators:
+# Istvan Farkas <istvan.farkas@gmail.com>, 2015
+# Istvan Farkas <istvan.farkas@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 16:04+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/spirit-project/spirit/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: forms.py:35
+msgid "Category"
+msgstr "Kategória"
+
+#: forms.py:36
+msgid "Choose a category"
+msgstr "Kategória választása"
+
+#: models.py:34
+msgid "category"
+msgstr "kategória"
+
+#: models.py:37
+msgid "title"
+msgstr "cím"
+
+#: models.py:39
+msgid "date"
+msgstr "dátum"
+
+#: models.py:40
+msgid "last active"
+msgstr "utolsó aktivitás"
+
+#: models.py:41
+msgid "reindex at"
+msgstr ""
+
+#: models.py:43
+msgid "pinned"
+msgstr "kiemelve"
+
+#: models.py:44
+msgid "globally pinned"
+msgstr "globálisan kiemelve"
+
+#: models.py:45
+msgid "closed"
+msgstr "lezárva"
+
+#: models.py:48
+msgid "views count"
+msgstr "megtekintések száma"
+
+#: models.py:49
+msgid "comment count"
+msgstr "hozzászólások száma"
+
+#: models.py:55
+msgid "topic"
+msgstr "téma"
+
+#: models.py:56
+msgid "topics"
+msgstr "témák"
+
+#: templates/spirit/topic/_render_list.html:51
+msgid "There are no topics here, yet"
+msgstr "Még nincsenek témák"
+
+#: templates/spirit/topic/_top_bar.html:14
+#: templates/spirit/topic/_top_bar.html:31
+msgid "All Categories"
+msgstr "Összes kategória"
+
+#: templates/spirit/topic/_top_bar.html:27
+msgid "All Subcategories"
+msgstr "Összes alkategória"
+
+#: templates/spirit/topic/_top_bar.html:41
+#: templates/spirit/topic/_top_bar.html:43
+msgid "Create Topic"
+msgstr "Téma indítása"
+
+#: templates/spirit/topic/active.html:5
+msgid "Latest active topics"
+msgstr "Legfrissebb témák"
+
+#: templates/spirit/topic/detail.html:12
+msgid "Main"
+msgstr "Fő"
+
+#: templates/spirit/topic/detail.html:42 templates/spirit/topic/detail.html:46
+msgid "edit"
+msgstr "szerkeszt"
+
+#: templates/spirit/topic/detail.html:61
+msgid "Select comments to move"
+msgstr "Mozgatni kívánt hozzászólások kiválasztása"
+
+#: templates/spirit/topic/detail.html:67
+msgid "Undelete topic"
+msgstr "Téma törlés visszavonása"
+
+#: templates/spirit/topic/detail.html:72
+msgid "Delete topic"
+msgstr "Téma törlése"
+
+#: templates/spirit/topic/detail.html:79
+msgid "Open topic"
+msgstr "Téma megnyitása"
+
+#: templates/spirit/topic/detail.html:84
+msgid "Close topic"
+msgstr "Téma lezárása"
+
+#: templates/spirit/topic/detail.html:91
+msgid "Unpin topic"
+msgstr "Téma kiemelése"
+
+#: templates/spirit/topic/detail.html:96
+msgid "Pin topic"
+msgstr "Téma kiemelés visszavonása"
+
+#: templates/spirit/topic/detail.html:103
+msgid "Unpin topic globally"
+msgstr "Globális kiemelés visszavontása"
+
+#: templates/spirit/topic/detail.html:108
+msgid "Pin topic globally"
+msgstr "Téma globális kiemelése"
+
+#: templates/spirit/topic/detail.html:120
+msgid "Topic id"
+msgstr "Téma ID"
+
+#: templates/spirit/topic/detail.html:124
+msgid "Move"
+msgstr "Mozgatás"
+
+#: templates/spirit/topic/detail.html:139
+msgid "Reply"
+msgstr "Válasz"
+
+#: templates/spirit/topic/moderate.html:5
+#: templates/spirit/topic/moderate.html:9
+msgid "Moderate topic"
+msgstr "Téma moderálása"
+
+#: templates/spirit/topic/moderate.html:14
+msgid "Apply"
+msgstr "Végrehajt"
+
+#: templates/spirit/topic/publish.html:5
+#: templates/spirit/topic/publish.html:20
+msgid "Publish topic"
+msgstr "Téma beküldése"
+
+#: templates/spirit/topic/publish.html:36
+msgid "Publish"
+msgstr "Publikál"
+
+#: templates/spirit/topic/update.html:5 templates/spirit/topic/update.html:9
+msgid "Update topic"
+msgstr "Téma frissítése"
+
+#: templates/spirit/topic/update.html:15
+msgid "Update"
+msgstr "Frissít"

@@ -1,0 +1,117 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2015-07-25 18:00+0000\n"
+"Last-Translator: Esteban M. Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Spirit\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: tags/time.py:33
+msgid "now"
+msgstr ""
+
+#: tags/time.py:37
+#, python-format
+msgid "%(count)ss"
+msgstr ""
+
+#: tags/time.py:41
+#, python-format
+msgid "%(count)sm"
+msgstr ""
+
+#: tags/time.py:44
+#, python-format
+msgid "%(count)sh"
+msgstr ""
+
+#: templates/403.html:10
+msgid "You do not have sufficient permissions to access this page"
+msgstr ""
+
+#: templates/404.html:10
+msgid "what you are looking for is gone..."
+msgstr ""
+
+#: templates/spirit/_base.html:28
+#, python-brace-format
+msgid "{user} has mention you on {topic}"
+msgstr ""
+
+#: templates/spirit/_base.html:29
+#, python-brace-format
+msgid "{user} has commented on {topic}"
+msgstr ""
+
+#: templates/spirit/_base.html:30
+msgid "Show all"
+msgstr ""
+
+#: templates/spirit/_base.html:31
+msgid "No new notifications, yet"
+msgstr ""
+
+#: templates/spirit/_base.html:32
+msgid "unread"
+msgstr ""
+
+#: templates/spirit/_header.html:42
+msgid "Profile"
+msgstr ""
+
+#: templates/spirit/_header.html:45
+msgid "Topics"
+msgstr ""
+
+#: templates/spirit/_header.html:48
+msgid "Unread topics"
+msgstr ""
+
+#: templates/spirit/_header.html:51
+msgid "Private topics"
+msgstr ""
+
+#: templates/spirit/_header.html:56
+msgid "Admin"
+msgstr ""
+
+#: templates/spirit/_header.html:63
+msgid "Log out"
+msgstr ""
+
+#: templates/spirit/_header.html:80
+msgid "Log in"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_paginator.html:4
+#, python-format
+msgid "Page %(number)s of %(num_pages)s"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_paginator.html:8
+msgid "Last"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_paginator.html:10
+msgid "First"
+msgstr ""
+
+#: templates/spirit/utils/paginator/_yt_paginator.html:5
+msgid "Page 1 of 1"
+msgstr ""
+
+#: utils/markdown/utils/quote.py:37
+#, python-format
+msgid "@%(username)s said:"
+msgstr ""
+
+#: utils/ratelimit/decorators.py:27
+#, python-format
+msgid "Too many submissions, wait %(time)s."
+msgstr ""

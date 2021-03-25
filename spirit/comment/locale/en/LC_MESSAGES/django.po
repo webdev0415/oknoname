@@ -1,0 +1,266 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2015-07-25 18:00+0000\n"
+"Last-Translator: Esteban M. Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Spirit\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: forms.py:39
+msgid "Comment"
+msgstr ""
+
+#: forms.py:57
+msgid "Write comment..."
+msgstr ""
+
+#: forms.py:147
+#, python-format
+msgid "Unsupported file format. Supported formats are %s."
+msgstr ""
+
+#: forms.py:174 forms.py:195
+msgid "The file could not be validated"
+msgstr ""
+
+#: forms.py:182
+#, python-format
+msgid ""
+"Unsupported file extension %(extension)s. Supported extensions are "
+"%(supported)s."
+msgstr ""
+
+#: forms.py:199
+#, python-format
+msgid "Unsupported file mime type %(mime)s. Supported types are %(supported)s."
+msgstr ""
+
+#: models.py:17 models.py:35 models.py:50
+msgid "comment"
+msgstr ""
+
+#: models.py:18
+msgid "topic moved"
+msgstr ""
+
+#: models.py:19
+msgid "topic closed"
+msgstr ""
+
+#: models.py:20
+msgid "topic unclosed"
+msgstr ""
+
+#: models.py:21
+msgid "topic pinned"
+msgstr ""
+
+#: models.py:22
+msgid "topic unpinned"
+msgstr ""
+
+#: models.py:36
+msgid "comment html"
+msgstr ""
+
+#: models.py:37
+msgid "action"
+msgstr ""
+
+#: models.py:43
+msgid "modified count"
+msgstr ""
+
+#: models.py:44
+msgid "likes count"
+msgstr ""
+
+#: models.py:51
+msgid "comments"
+msgstr ""
+
+#: tags.py:40
+msgid "This topic has been moved"
+msgstr ""
+
+#: tags.py:41
+msgid "This topic has been closed"
+msgstr ""
+
+#: tags.py:42
+msgid "This topic has been unclosed"
+msgstr ""
+
+#: tags.py:43
+msgid "This topic has been pinned"
+msgstr ""
+
+#: tags.py:44
+msgid "This topic has been unpinned"
+msgstr ""
+
+#: tags.py:49
+msgid "Unknown topic moderation action"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:10
+msgid "Bold"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:15
+msgid "Italic"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:20
+msgid "List"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:25
+msgid "URL"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:30
+msgid "Image"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:37
+msgid "File"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:44
+msgid "Poll"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:49
+msgid "Preview"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:77
+#: templates/spirit/comment/_editor.html:86
+#, python-brace-format
+msgid "uploading {name}"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:92
+msgid "bolded text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:93
+msgid "italicised text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:94
+msgid "list item"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:95
+msgid "link text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:96
+msgid "link url"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:97
+msgid "image text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:98
+msgid "image url"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:99
+msgid "file text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:100
+msgid "file url"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:101
+msgid "Title"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:102
+msgid "Description"
+msgstr ""
+
+#: templates/spirit/comment/_form.html:17
+#: templates/spirit/comment/publish.html:18
+#: templates/spirit/comment/update.html:18
+msgid "Publish"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:58
+msgid "delete"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:64
+msgid "report"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:70
+msgid "share"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:79
+#: templates/spirit/comment/_render_list.html:195
+msgid "remove like"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:87
+#: templates/spirit/comment/_render_list.html:194
+msgid "like"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:96
+msgid "edit"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:102
+msgid "quote"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:105
+msgid "reply"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:114
+msgid "close"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:163
+msgid "This comment was deleted"
+msgstr ""
+
+#: templates/spirit/comment/_render_list.html:173
+msgid "undelete"
+msgstr ""
+
+#: templates/spirit/comment/moderate.html:5
+#: templates/spirit/comment/moderate.html:9
+msgid "Moderate comment"
+msgstr ""
+
+#: templates/spirit/comment/moderate.html:14
+msgid "Apply"
+msgstr ""
+
+#: templates/spirit/comment/publish.html:5
+msgid "Publish comment"
+msgstr ""
+
+#: templates/spirit/comment/publish.html:9
+msgid "Publishing comment on"
+msgstr ""
+
+#: templates/spirit/comment/update.html:5
+#: templates/spirit/comment/update.html:9
+msgid "Edit comment"
+msgstr ""

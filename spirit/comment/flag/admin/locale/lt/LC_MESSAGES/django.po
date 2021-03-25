@@ -1,0 +1,79 @@
+# 
+# Translators:
+# sirex <sirexas@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-11-26 00:01+0000\n"
+"Last-Translator: sirex <sirexas@gmail.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/spirit-project/spirit/language/lt/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+
+#: templates/spirit/comment/flag/admin/_list.html:9
+msgid "moderate"
+msgstr "moderuoti"
+
+#: templates/spirit/comment/flag/admin/_tabs.html:4
+msgid "Open"
+msgstr "Atidaryti"
+
+#: templates/spirit/comment/flag/admin/_tabs.html:5
+msgid "Closed"
+msgstr "Uždaryta"
+
+#: templates/spirit/comment/flag/admin/closed.html:5
+#: templates/spirit/comment/flag/admin/closed.html:11
+msgid "Closed flags"
+msgstr "Uždaryti pranešimai"
+
+#: templates/spirit/comment/flag/admin/detail.html:5
+#: templates/spirit/comment/flag/admin/detail.html:14
+msgid "Flag"
+msgstr "Pranešimas"
+
+#: templates/spirit/comment/flag/admin/detail.html:10
+msgid "Admin"
+msgstr "Administravimas"
+
+#: templates/spirit/comment/flag/admin/detail.html:11
+msgid "Flags"
+msgstr "Pranešimai"
+
+#: templates/spirit/comment/flag/admin/detail.html:18
+msgid "Moderated by"
+msgstr "Moderavo:"
+
+#: templates/spirit/comment/flag/admin/detail.html:27
+msgid "Save"
+msgstr "Saugoti"
+
+#: templates/spirit/comment/flag/admin/detail.html:30
+msgid "Comment flagged"
+msgstr "Komentaras apie kurį pranešta"
+
+#: templates/spirit/comment/flag/admin/detail.html:55
+msgid "delete"
+msgstr "trinti"
+
+#: templates/spirit/comment/flag/admin/detail.html:57
+msgid "undelete"
+msgstr "atstatyti"
+
+#: templates/spirit/comment/flag/admin/detail.html:65
+msgid "Reporters"
+msgstr "Pranešėjai"
+
+#: templates/spirit/comment/flag/admin/open.html:5
+#: templates/spirit/comment/flag/admin/open.html:11
+msgid "Open flags"
+msgstr "Atviri pranešimai"
+
+#: views.py:27
+msgid "The flag has been moderated!"
+msgstr "Pranešimas buvo moderuotas!"

@@ -1,0 +1,26 @@
+{% extends "spirit/_base.html" %}
+
+{% load i18n %}
+
+{% block title %}{% trans "Edit user" %}{% endblock %}
+
+{% block content %}
+
+  <h1 class="headline">{% trans "Edit user" %}</h1>
+
+  <form action="." method="post">
+    {% csrf_token %}
+    {% include "spirit/_form.html" with form=uform %}
+    {% include "spirit/_form.html" %}
+    <div class="field">
+      <label for="id_is_allowed">Is allowed:</label>
+      {% if profile.is_allowed == True %}
+        <input type="checkbox" name="is_allowed" checked id="id_is_allowed">
+      {% else %}
+        <input type="checkbox" name="is_allowed" id="id_is_allowed">
+      {% endif %}
+    </div>
+    <input class="button" type="submit" name="post" value="{% trans "Save" %}" />
+  </form>
+
+{% endblock %}

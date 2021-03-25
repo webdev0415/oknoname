@@ -1,0 +1,36 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 15:40+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/spirit-project/spirit/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: models.py:15
+msgid "original comment"
+msgstr "原始评论"
+
+#: models.py:18
+msgid "comment html"
+msgstr "评论html"
+
+#: models.py:23
+msgid "comment history"
+msgstr "评论历史"
+
+#: models.py:24
+msgid "comments history"
+msgstr "评论历史"
+
+#: templates/spirit/comment/history/detail.html:5
+#: templates/spirit/comment/history/detail.html:11
+msgid "Comment history"
+msgstr "评论历史"

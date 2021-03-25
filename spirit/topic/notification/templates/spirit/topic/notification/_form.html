@@ -1,0 +1,15 @@
+{% load i18n %}
+{% load custom %}
+
+{% check_notification notification user as notification_result %}
+{{ notification.id }}
+  <form method="post" action="{% url "spirit:topic:notification:update" notification.pk %}">
+{% csrf_token %}
+{% include "spirit/_form.html" %}
+
+{% if notification_result %}
+  <input class="button is-undo" type="submit" value="{% trans "Unnotify Me" %}" />
+{% else %}
+  <input class="button" type="submit" value="{% trans "Notify Me" %}" />
+{% endif %}
+</form>

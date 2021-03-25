@@ -1,0 +1,270 @@
+# 
+# Translators:
+# Alper Buluc <ihtiyaroyuncu@yandex.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-11-26 00:01+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/spirit-project/spirit/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: forms.py:39
+msgid "Comment"
+msgstr "Yorum"
+
+#: forms.py:57
+msgid "Write comment..."
+msgstr "Yorum yapın..."
+
+#: forms.py:147
+#, python-format
+msgid "Unsupported file format. Supported formats are %s."
+msgstr "Desteklenmeyen dosya format. Desteklenen formatlar %s."
+
+#: forms.py:174 forms.py:195
+msgid "The file could not be validated"
+msgstr ""
+
+#: forms.py:182
+#, python-format
+msgid ""
+"Unsupported file extension %(extension)s. Supported extensions are "
+"%(supported)s."
+msgstr ""
+
+#: forms.py:199
+#, python-format
+msgid ""
+"Unsupported file mime type %(mime)s. Supported types are %(supported)s."
+msgstr ""
+
+#: models.py:17 models.py:35 models.py:50
+msgid "comment"
+msgstr "yorum"
+
+#: models.py:18
+msgid "topic moved"
+msgstr "konu taşındı"
+
+#: models.py:19
+msgid "topic closed"
+msgstr "konu kitlendi"
+
+#: models.py:20
+msgid "topic unclosed"
+msgstr "konu açıldı"
+
+#: models.py:21
+msgid "topic pinned"
+msgstr "konu sabitlendi"
+
+#: models.py:22
+msgid "topic unpinned"
+msgstr "konu ayrıldı"
+
+#: models.py:36
+msgid "comment html"
+msgstr "html yorum"
+
+#: models.py:37
+msgid "action"
+msgstr "eylem"
+
+#: models.py:43
+msgid "modified count"
+msgstr "düzenlenme sayısı"
+
+#: models.py:44
+msgid "likes count"
+msgstr "beğeni sayısı"
+
+#: models.py:51
+msgid "comments"
+msgstr "yorumlar"
+
+#: tags.py:40
+msgid "This topic has been moved"
+msgstr "Bu konu taşındı"
+
+#: tags.py:41
+msgid "This topic has been closed"
+msgstr "Bu konu kilitlendi"
+
+#: tags.py:42
+msgid "This topic has been unclosed"
+msgstr "Bu konu açıldı"
+
+#: tags.py:43
+msgid "This topic has been pinned"
+msgstr "Bu konu sabitlendi"
+
+#: tags.py:44
+msgid "This topic has been unpinned"
+msgstr "Bu konu ayrıldı"
+
+#: tags.py:49
+msgid "Unknown topic moderation action"
+msgstr "Bilinmeyen konu yönetimi eylemi"
+
+#: templates/spirit/comment/_editor.html:10
+msgid "Bold"
+msgstr "Koyu"
+
+#: templates/spirit/comment/_editor.html:15
+msgid "Italic"
+msgstr "Eğik"
+
+#: templates/spirit/comment/_editor.html:20
+msgid "List"
+msgstr "Liste"
+
+#: templates/spirit/comment/_editor.html:25
+msgid "URL"
+msgstr "URL"
+
+#: templates/spirit/comment/_editor.html:30
+msgid "Image"
+msgstr "Resim"
+
+#: templates/spirit/comment/_editor.html:37
+msgid "File"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:44
+msgid "Poll"
+msgstr "Anket"
+
+#: templates/spirit/comment/_editor.html:49
+msgid "Preview"
+msgstr "Önizleme"
+
+#: templates/spirit/comment/_editor.html:77
+#: templates/spirit/comment/_editor.html:86
+#, python-brace-format
+msgid "uploading {name}"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:92
+msgid "bolded text"
+msgstr "koyu metin"
+
+#: templates/spirit/comment/_editor.html:93
+msgid "italicised text"
+msgstr "eğik meti"
+
+#: templates/spirit/comment/_editor.html:94
+msgid "list item"
+msgstr "liste öğesi"
+
+#: templates/spirit/comment/_editor.html:95
+msgid "link text"
+msgstr "bağlantı metni"
+
+#: templates/spirit/comment/_editor.html:96
+msgid "link url"
+msgstr "bağlantı url'i"
+
+#: templates/spirit/comment/_editor.html:97
+msgid "image text"
+msgstr "resim metni"
+
+#: templates/spirit/comment/_editor.html:98
+msgid "image url"
+msgstr "resim url'i"
+
+#: templates/spirit/comment/_editor.html:99
+msgid "file text"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:100
+msgid "file url"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:101
+msgid "Title"
+msgstr ""
+
+#: templates/spirit/comment/_editor.html:102
+msgid "Description"
+msgstr ""
+
+#: templates/spirit/comment/_form.html:17
+#: templates/spirit/comment/publish.html:18
+#: templates/spirit/comment/update.html:18
+msgid "Publish"
+msgstr "Yayınla"
+
+#: templates/spirit/comment/_render_list.html:58
+msgid "delete"
+msgstr "sil"
+
+#: templates/spirit/comment/_render_list.html:64
+msgid "report"
+msgstr "rapor et"
+
+#: templates/spirit/comment/_render_list.html:70
+msgid "share"
+msgstr "paylaş"
+
+#: templates/spirit/comment/_render_list.html:79
+#: templates/spirit/comment/_render_list.html:195
+msgid "remove like"
+msgstr "beğenmekten vazgeç"
+
+#: templates/spirit/comment/_render_list.html:87
+#: templates/spirit/comment/_render_list.html:194
+msgid "like"
+msgstr "beğen"
+
+#: templates/spirit/comment/_render_list.html:96
+msgid "edit"
+msgstr "düzenle"
+
+#: templates/spirit/comment/_render_list.html:102
+msgid "quote"
+msgstr "alıntıla"
+
+#: templates/spirit/comment/_render_list.html:105
+msgid "reply"
+msgstr "cevapla"
+
+#: templates/spirit/comment/_render_list.html:114
+msgid "close"
+msgstr "kapat"
+
+#: templates/spirit/comment/_render_list.html:163
+msgid "This comment was deleted"
+msgstr "Bu yorum silindi"
+
+#: templates/spirit/comment/_render_list.html:173
+msgid "undelete"
+msgstr "çöpten çıkar"
+
+#: templates/spirit/comment/moderate.html:5
+#: templates/spirit/comment/moderate.html:9
+msgid "Moderate comment"
+msgstr "Yorumu yönet"
+
+#: templates/spirit/comment/moderate.html:14
+msgid "Apply"
+msgstr "Uygula"
+
+#: templates/spirit/comment/publish.html:5
+msgid "Publish comment"
+msgstr "Yorumu yayınla"
+
+#: templates/spirit/comment/publish.html:9
+msgid "Publishing comment on"
+msgstr "Yorumu şurada yayınla"
+
+#: templates/spirit/comment/update.html:5
+#: templates/spirit/comment/update.html:9
+msgid "Edit comment"
+msgstr "Yorumu düzenle"

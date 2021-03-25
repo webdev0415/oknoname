@@ -1,0 +1,177 @@
+# 
+# Translators:
+# Alper Buluc <ihtiyaroyuncu@yandex.com>, 2015
+# Alper Buluc <ihtiyaroyuncu@yandex.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Spirit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-26 00:12+0000\n"
+"PO-Revision-Date: 2018-01-30 16:04+0000\n"
+"Last-Translator: Esteban Castro Borsani <ecastroborsani@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/spirit-project/spirit/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: forms.py:35
+msgid "Category"
+msgstr "Kategori"
+
+#: forms.py:36
+msgid "Choose a category"
+msgstr "Bir kategori seçin"
+
+#: models.py:34
+msgid "category"
+msgstr "kategori"
+
+#: models.py:37
+msgid "title"
+msgstr "başlık"
+
+#: models.py:39
+msgid "date"
+msgstr "tarih"
+
+#: models.py:40
+msgid "last active"
+msgstr ""
+
+#: models.py:41
+msgid "reindex at"
+msgstr ""
+
+#: models.py:43
+msgid "pinned"
+msgstr "tutturuldu"
+
+#: models.py:44
+msgid "globally pinned"
+msgstr "genel olarak sabitle"
+
+#: models.py:45
+msgid "closed"
+msgstr "kapandı"
+
+#: models.py:48
+msgid "views count"
+msgstr "görüntüleme sayısı"
+
+#: models.py:49
+msgid "comment count"
+msgstr "yorum sayısı"
+
+#: models.py:55
+msgid "topic"
+msgstr "konu"
+
+#: models.py:56
+msgid "topics"
+msgstr "konular"
+
+#: templates/spirit/topic/_render_list.html:51
+msgid "There are no topics here, yet"
+msgstr "Henüz konu bulunmuyor"
+
+#: templates/spirit/topic/_top_bar.html:14
+#: templates/spirit/topic/_top_bar.html:31
+msgid "All Categories"
+msgstr "Tüm Kategoriler"
+
+#: templates/spirit/topic/_top_bar.html:27
+msgid "All Subcategories"
+msgstr "Tüm Alt Kategoriler"
+
+#: templates/spirit/topic/_top_bar.html:41
+#: templates/spirit/topic/_top_bar.html:43
+msgid "Create Topic"
+msgstr "Konu Oluştur"
+
+#: templates/spirit/topic/active.html:5
+msgid "Latest active topics"
+msgstr "Son Aktif Konular"
+
+#: templates/spirit/topic/detail.html:12
+msgid "Main"
+msgstr "Ana"
+
+#: templates/spirit/topic/detail.html:42 templates/spirit/topic/detail.html:46
+msgid "edit"
+msgstr "düzenle"
+
+#: templates/spirit/topic/detail.html:61
+msgid "Select comments to move"
+msgstr "Taşınacak yorumları seçin"
+
+#: templates/spirit/topic/detail.html:67
+msgid "Undelete topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:72
+msgid "Delete topic"
+msgstr "Konuyu sil"
+
+#: templates/spirit/topic/detail.html:79
+msgid "Open topic"
+msgstr "Konu aç"
+
+#: templates/spirit/topic/detail.html:84
+msgid "Close topic"
+msgstr "Konuyu kapat"
+
+#: templates/spirit/topic/detail.html:91
+msgid "Unpin topic"
+msgstr ""
+
+#: templates/spirit/topic/detail.html:96
+msgid "Pin topic"
+msgstr "Konuyu sabitle"
+
+#: templates/spirit/topic/detail.html:103
+msgid "Unpin topic globally"
+msgstr "Konuyu genel olrak ayır"
+
+#: templates/spirit/topic/detail.html:108
+msgid "Pin topic globally"
+msgstr "Konuyu genel olara tuttur"
+
+#: templates/spirit/topic/detail.html:120
+msgid "Topic id"
+msgstr "Konu id'si"
+
+#: templates/spirit/topic/detail.html:124
+msgid "Move"
+msgstr "Taşı"
+
+#: templates/spirit/topic/detail.html:139
+msgid "Reply"
+msgstr "Cevapla"
+
+#: templates/spirit/topic/moderate.html:5
+#: templates/spirit/topic/moderate.html:9
+msgid "Moderate topic"
+msgstr "Konuyu yönet"
+
+#: templates/spirit/topic/moderate.html:14
+msgid "Apply"
+msgstr "Uygula"
+
+#: templates/spirit/topic/publish.html:5
+#: templates/spirit/topic/publish.html:20
+msgid "Publish topic"
+msgstr "Konuyu yayınla"
+
+#: templates/spirit/topic/publish.html:36
+msgid "Publish"
+msgstr "Yayınla"
+
+#: templates/spirit/topic/update.html:5 templates/spirit/topic/update.html:9
+msgid "Update topic"
+msgstr "Konuyu güncelle"
+
+#: templates/spirit/topic/update.html:15
+msgid "Update"
+msgstr "Güncelle"

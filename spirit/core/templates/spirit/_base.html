@@ -1,0 +1,71 @@
+{% load spirit_tags i18n %}
+{% load static %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% block title %}{% endblock %} - {{ config.site_name }}</title>
+  <meta name="description" content="{{ config.site_description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="{% static "spirit/stylesheets/styles.all.min.css" %}">
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+
+  <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
+  <script src="{% static "spirit/scripts/all.min.js" %}"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      stModules.tab(document.querySelectorAll('.js-tab'));
+      stModules.postify(document.querySelectorAll('.js-post'), {
+        csrfToken: "{{ csrf_token }}"
+      });
+      stModules.messages(document.querySelectorAll('.js-messages'));
+      {% if user.is_authenticated %}
+        stModules.notification(document.querySelectorAll('.js-tab-notification'), {
+          notificationUrl: "{% url "spirit:topic:notification:index-ajax" %}",
+          notificationListUrl: "{% url "spirit:topic:notification:index-unread" %}",
+          mentionTxt: "{% trans "{user} has mention you on {topic}" %}",
+          topicNoTxt: "{{user}} has created a topic {{topic}}",
+          commentTxt: "{% trans "{user} has commented on {topic}" %}",
+          showAll: "{% trans "Show all" %}",
+          empty: "{% trans "No new notifications, yet" %}",
+          unread: "{% trans "unread" %}"
+        });
+      {% endif %}
+    });
+  </script>
+
+  {% block head-extra %}{% endblock %}
+
+  <!--[if (lt IE 9) & (!IEMobile)]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+    <![endif]-->
+
+  <style>
+    .container {
+      max-width: 1080px;
+    }
+  </style>
+
+</head>
+
+<body>
+<div class="row">
+<div class="container flex-row justify-content-between">
+{% include 'spirit/_header.html' %}
+{% render_messages messages %}
+{% block content %}{% endblock %}
+{% include 'spirit/_footer.html' %}
+  </div>
+</div>
+
+</body>
+
+</html>

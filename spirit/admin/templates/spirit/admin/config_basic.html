@@ -1,0 +1,25 @@
+{% extends "spirit/_base.html" %}
+
+{% load i18n %}
+
+{% block title %}{% trans "Basic Settings" %}{% endblock %}
+
+{% block content %}
+
+  {% include "spirit/admin/_side_menu.html" with active="basic_settings" %}
+
+  <h1 class="headline">{% trans "Basic Settings" %}</h1>
+
+  <form action="." method="post">
+    {% csrf_token %}
+    {% include "spirit/_form.html" %}
+    <div class="field">
+      <label for="id_password">Forum Password</label>
+      <input type="text" name="samp" hidden value="change_password">
+      <input type="password" name="forum_password" required id="change_password_input">
+    </div>
+    <input class="button" type="submit" name="post" value="{% trans "Save" %}" />
+  </form>
+  <hr>
+
+{% endblock %}
